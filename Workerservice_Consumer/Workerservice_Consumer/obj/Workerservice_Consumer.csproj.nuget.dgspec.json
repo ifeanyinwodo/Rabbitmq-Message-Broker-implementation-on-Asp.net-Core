@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\Workerservice_Consumer\\Workerservice_Consumer\\Workerservice_Consumer.csproj": {}
+  },
+  "projects": {
+    "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\Workerservice_Consumer\\Workerservice_Consumer\\Workerservice_Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\Workerservice_Consumer\\Workerservice_Consumer\\Workerservice_Consumer.csproj",
+        "projectName": "Workerservice_Consumer",
+        "projectPath": "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\Workerservice_Consumer\\Workerservice_Consumer\\Workerservice_Consumer.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\Workerservice_Consumer\\Workerservice_Consumer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\microservice\\Azure-Service-Bus-Message-Broker-Implementation-ASP.Net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
+          "D:\\microservice\\Kafka-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
+          "D:\\microservice\\Rabbitmq-Message-Broker-implementation-on-Asp.net-Core\\ItemModel-Nugget\\ItemModel-Nugget\\bin\\Debug": {},
+          "D:\\microservice\\SAGA\\localsystem": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Elastic.Apm.SerilogEnricher": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "Elastic.CommonSchema.Serilog": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            },
+            "ItemModel-Nugget": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Formatting.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Serilog.Sinks.RabbitMQ": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "SerilogMetrics": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
